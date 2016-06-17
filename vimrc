@@ -439,3 +439,6 @@ endfunction
 autocmd WinEnter * call NERDTreeQuit()
 colorscheme BusyBee
 
+if &diff
+        colorscheme BusyBee
+endif
